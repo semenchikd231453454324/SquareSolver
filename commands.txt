@@ -1,0 +1,11 @@
+
+g++ main.cpp compare.cpp input.cpp output.cpp SolveSquare.cpp tests.cpp autotest.cpp -o quad -Wall -Wextra -Weffc++ -Wcast-align -Wcast-qual -Wconversion -Wctor-dtor-privacy -Wempty-body -Wfloat-equal -Wformat-security -Wformat=2 -Wignored-qualifiers -Winit-self -Winline -Wlogical-op -Wmain -Wmissing-declarations -Wno-missing-field-initializers -Wmissing-include-dirs -Wnon-virtual-dtor -Woverloaded-virtual -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-promo -Wstack-usage=8192 -Wstrict-aliasing -Wstrict-null-sentinel -Wswitch-default -Wswitch-enum -Wtype-limits -Wundef -Wunreachable-code -Wwrite-strings -fexceptions -g -pipe -D_DEBUG -D_EJUDGE_CLIENT_SIDE -D_EJC
+git config --global user.name "Sergey Slom"
+git config --global user.email "slomser@mail.ru"
+git init                                                       инициализация(каждый раз)
+git add . = git add -A                                     добавить все файлы в индекс
+git status
+git version
+git commit -m "ОПИСАНИЕ КОММИТА"          (после git add .)
+git remote -v                                         список удалённых хостов
+
